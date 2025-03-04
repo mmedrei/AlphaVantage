@@ -19,6 +19,7 @@ url = 'https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords=tesco&a
 data= requests.get('https://www.alphavantage.co/query', params=params).json()
 
 print(data)
+# ------------------------
 
 
 
