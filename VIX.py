@@ -20,7 +20,7 @@ data= requests.get('https://www.alphavantage.co/query', params=params).json()
 
 print(data)
 # ------------------------
-# -------example 3------------
+# -------example 3 ------------
 
 
 
